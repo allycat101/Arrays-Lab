@@ -6,9 +6,8 @@ Exercise 1: Define an empty array
 Exercise 1 has been completed for you:
 */
 
-let foods = ['pizza','cheeseburger'];  
-
-console.log('Exercise 1 result:', foods);
+const foods = []; 
+console.log[foods];
 
 /*
 Exercise 2: Add strings to the array
@@ -19,7 +18,7 @@ Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
 
 Complete Exercise 2 in the space below:*/
 //added 'pizza'and 'cheeseburger above in ex 1 to read const foods = [pizza, cheeseburger
-
+foods.push("pizza" , "cheeseburger")
 
 console.log('Exercise 2 result:', foods);
 
@@ -45,15 +44,14 @@ Exercise 4: Access an array element
 
 Complete Exercise 4 in the space below:
 */
-
+foods.pop("pizza");
 let favFood = "pizza" //number 1 in the array
 
 
 console.log('Exercise 4 result:', favFood);
 
-foods.splice(2, 3, "pizza"); //returns pizza twice b/c we said to repeat 
+favFood = "pizza" //returns pizza twice b/c we said to repeat 
 
-let removed = foods.splice(2, 1, "pizzarolls"); //it removed the last element of the array and replaced it with a new element
 
 
 console.log(foods);
